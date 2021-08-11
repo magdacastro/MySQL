@@ -16,13 +16,7 @@
   </p>
 </div>
 
-<style>
-  b {
-    font-size:12px;
-  }
-</style>
-
-<b>Exercício 1:</b> Crie um banco de dados para um sistema de tarefas
+<b style="font-size:12px;">Exercício 1:</b> Crie um banco de dados para um sistema de tarefas
 e crie uma tabela de tarefas no mysql para armazenar os dados do array abaixo:
 
 ```Javascript
@@ -48,7 +42,7 @@ create table mytasks (
 );
 ```
 
-<b>Exercício 2:</b> Crie uma query para inserir todos os dados do array do exercício anterior.
+<b style="font-size:12px;">Exercício 2:</b> Crie uma query para inserir todos os dados do array do exercício anterior.
 
 ```SQL
 insert into mytasks (description, completed ) values
@@ -61,31 +55,31 @@ insert into mytasks (description, completed ) values
 
 ```
 
-<b>Exercício 3:</b> Crie uma query para listar todas as tarefas.
+<b style="font-size:12px;">Exercício 3:</b> Crie uma query para listar todas as tarefas.
 
 ```SQL
 select * from mytasks;
 ```
 
-<b>Exercício 4:</b> Crie uma query para listar uma tarefa pelo id 2.
+<b style="font-size:12px;">Exercício 4:</b> Crie uma query para listar uma tarefa pelo id 2.
 
 ```SQL
 select * from mytasks where id = 2;
 ```
 
-<b>Exercício 5:</b> Crie um query para inserir uma tarefa na tabela.
+<b style="font-size:12px;">Exercício 5:</b> Crie um query para inserir uma tarefa na tabela.
 
 ```SQL
 insert into mytasks (description, completed ) values ('Levar o cachorro para passear', true);
 ```
 
-<b>Exercício 6:</b> Crie uma query para atualizar uma tarefa na tabela.
+<b style="font-size:12px;">Exercício 6:</b> Crie uma query para atualizar uma tarefa na tabela.
 
 ```SQL
 update mytasks set description = 'Entregar projeto finalizado até 13/08' where id = 7;
 ```
 
-<b>Exercício 7:</b> Crie uma query para remover uma tarefa da tabela.
+<b style="font-size:12px;">Exercício 7:</b> Crie uma query para remover uma tarefa da tabela.
 
 ```SQL
 delete from mytasks where id = 1;
